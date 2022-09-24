@@ -1,0 +1,16 @@
+const fs = require('fs-extra');
+const dir = './FirstFolder';
+fs.ensureDirSync(dir);
+const file = './FirstFolder/file.txt';
+fs.ensureFileSync(file);
+const dir2 = './SecondFolder';
+fs.ensureDirSync(dir2);
+fs.moveSync(file, './SecondFolder/file.txt');
+const dir3 = './ThirdFolder';
+fs.ensureDirSync(dir3);
+fs.copySync('./SecondFolder/file.txt', './ThirdFolder/newfile.txt');
+fs.removeSync('./SecondFolder/file.txt');
+fs.removeSync('./ThirdFolder/newfile.txt');
+fs.removeSync(dir);
+fs.removeSync(dir2);
+fs.removeSync(dir3);
