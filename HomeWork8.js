@@ -21,19 +21,32 @@ function maxValue(array) {
 console.log(maxValue(arr2));
 
 
+function getFibonacci(n, M) {
+    let current = getFibonacci2(n);
 
-function fibonacci(N, M) {
+    function getFibonacci2(n) {
+        return n <= 1 ? n : getFibonacci2(n - 1) + getFibonacci2(n - 2);
+    };
+
+    const np = n - 1;
+    let prev = getFibonacci3(np);
+
+    function getFibonacci3(np) {
+        return np <= 1 ? np : getFibonacci3(np - 1) + getFibonacci3(np - 2);
+    };
+
     let result = [];
-    let prev = 0;
     for (i = 0; i < M; i++) {
-        let current = N;
-        N += prev;
+        let future = prev + current;
         prev = current;
+        current = future;
         result.push(prev);
     };
     return result;
+
+
 }
-console.log(fibonacci(3, 5));
+console.log(getFibonacci(5, 6));
 
 
 
