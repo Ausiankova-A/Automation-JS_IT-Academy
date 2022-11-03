@@ -109,8 +109,6 @@ newYearsPresent.add(factory.createCandies('Chupa Chups'));
 newYearsPresent.add(factory.createCandies('Tine Eggs'));
 newYearsPresent.add(factory.createCandies('Jelly'));
 
-
-
 console.log(newYearsPresent.getWeight());
 console.log(newYearsPresent.getSortFromAtoZ());
 console.log(newYearsPresent.filterByPrice(7, 11));
