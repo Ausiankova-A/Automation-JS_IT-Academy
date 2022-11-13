@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Testing" tests="59" failures="31" errors="0" time="3.642">
+  <testsuite name="Add.test.js" errors="0" failures="4" skipped="0" timestamp="2022-11-13T19:11:50" time="2.033" tests="11">
+    <testcase classname="Checking add function in Calculator-when I pass paramenters 1, 2, 3, 4, 5, 6, 7, 8, 9 function add should return number 45 " name="Checking add function in Calculator-when I pass paramenters 1, 2, 3, 4, 5, 6, 7, 8, 9 function add should return number 45 " time="0.003">
+    </testcase>
+    <testcase classname="Checking add function in Calculator-when I pass parameters 3, 4 function add should return 7  " name="Checking add function in Calculator-when I pass parameters 3, 4 function add should return 7  " time="0">
+    </testcase>
+    <testcase classname="Checking add function in Calculator-when I pass parameters 1, -1 function add should return 0  " name="Checking add function in Calculator-when I pass parameters 1, -1 function add should return 0  " time="0">
+    </testcase>
+    <testcase classname="Checking add function in Calculator-when I pass parameters 654324512, 78915111221 function add should return 79569435733  " name="Checking add function in Calculator-when I pass parameters 654324512, 78915111221 function add should return 79569435733  " time="0.001">
+    </testcase>
+    <testcase classname="Checking add function in Calculator-when I pass parameters 15, -12 function add should return 3  " name="Checking add function in Calculator-when I pass parameters 15, -12 function add should return 3  " time="0.001">
+    </testcase>
+    <testcase classname="Checking add function in Calculator-when I pass parameters -22, -8 function add should return -30  " name="Checking add function in Calculator-when I pass parameters -22, -8 function add should return -30  " time="0">
+    </testcase>
+    <testcase classname="Checking add function in Calculator-when I pass parameters two, 7 function add should return function Error() { [native code] }  " name="Checking add function in Calculator-when I pass parameters two, 7 function add should return function Error() { [native code] }  " time="0.004">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: [Function Error]
+Received: &quot;0two7&quot;
+    at toBe (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\Add.test.js:21:53)
+    at Object.&lt;anonymous&gt; (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-each\build\bind.js:79:13)
+    at Promise.then.completed (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:289:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:222:10)
+    at _callCircusTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:184:3)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:86:9)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:81:9)
+    at run (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:26:3)
+    at runAndTransformResultsToJestFormat (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:120:21)
+    at jestAdapter (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Checking add function in Calculator-when I pass parameters 10, undefined function add should return function Error() { [native code] }  " name="Checking add function in Calculator-when I pass parameters 10, undefined function add should return function Error() { [native code] }  " time="0.001">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: [Function Error]
+Received: NaN
+    at toBe (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\Add.test.js:21:53)
+    at Object.&lt;anonymous&gt; (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-each\build\bind.js:79:13)
+    at Promise.then.completed (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:289:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:222:10)
+    at _callCircusTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:184:3)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:86:9)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:81:9)
+    at run (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:26:3)
+    at runAndTransformResultsToJestFormat (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:120:21)
+    at jestAdapter (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Checking add function in Calculator-when I pass parameters 3, 5 function add should return function Error() { [native code] }  " name="Checking add function in Calculator-when I pass parameters 3, 5 function add should return function Error() { [native code] }  " time="0.001">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: [Function Error]
+Received: &quot;035&quot;
+    at toBe (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\Add.test.js:21:53)
+    at Object.&lt;anonymous&gt; (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-each\build\bind.js:79:13)
+    at Promise.then.completed (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:289:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:222:10)
+    at _callCircusTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:184:3)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:86:9)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:81:9)
+    at run (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:26:3)
+    at runAndTransformResultsToJestFormat (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:120:21)
+    at jestAdapter (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Checking add function in Calculator-when I pass parameters 12, 0 function add should return 12  " name="Checking add function in Calculator-when I pass parameters 12, 0 function add should return 12  " time="0.001">
+    </testcase>
+    <testcase classname="Checking add function in Calculator-when I pass parameters 5, null function add should return function Error() { [native code] }  " name="Checking add function in Calculator-when I pass parameters 5, null function add should return function Error() { [native code] }  " time="0.001">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: [Function Error]
+Received: 5
+    at toBe (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\Add.test.js:21:53)
+    at Object.&lt;anonymous&gt; (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-each\build\bind.js:79:13)
+    at Promise.then.completed (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:289:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:222:10)
+    at _callCircusTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:184:3)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:86:9)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:81:9)
+    at run (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:26:3)
+    at runAndTransformResultsToJestFormat (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:120:21)
+    at jestAdapter (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Divide.test.js" errors="0" failures="6" skipped="0" timestamp="2022-11-13T19:11:50" time="2.041" tests="13">
+    <testcase classname="Checking divide function in Calculator-when I pass paramenters 9, 8, 7, 6, 5, 4, 3, 2, 1 function divide should return number 0.00022321 " name="Checking divide function in Calculator-when I pass paramenters 9, 8, 7, 6, 5, 4, 3, 2, 1 function divide should return number 0.00022321 " time="0.008">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: 0.00022321
+Received: 1.125
+    at Object.toEqual (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\Divide.test.js:7:58)
+    at Promise.then.completed (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:289:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:222:10)
+    at _callCircusTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:184:3)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:86:9)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:81:9)
+    at run (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:26:3)
+    at runAndTransformResultsToJestFormat (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:120:21)
+    at jestAdapter (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Checking divide function in Calculator-when I pass parameters 4, 2 function divide should return 2  " name="Checking divide function in Calculator-when I pass parameters 4, 2 function divide should return 2  " time="0.001">
+    </testcase>
+    <testcase classname="Checking divide function in Calculator-when I pass parameters 7, 2 function divide should return 3.5  " name="Checking divide function in Calculator-when I pass parameters 7, 2 function divide should return 3.5  " time="0.001">
+    </testcase>
+    <testcase classname="Checking divide function in Calculator-when I pass parameters 14, 14 function divide should return 1  " name="Checking divide function in Calculator-when I pass parameters 14, 14 function divide should return 1  " time="0">
+    </testcase>
+    <testcase classname="Checking divide function in Calculator-when I pass parameters 7891511122145, 1 function divide should return 7891511122145  " name="Checking divide function in Calculator-when I pass parameters 7891511122145, 1 function divide should return 7891511122145  " time="0">
+    </testcase>
+    <testcase classname="Checking divide function in Calculator-when I pass parameters 24, -12 function divide should return -2  " name="Checking divide function in Calculator-when I pass parameters 24, -12 function divide should return -2  " time="0.001">
+    </testcase>
+    <testcase classname="Checking divide function in Calculator-when I pass parameters -12, 3 function divide should return -4  " name="Checking divide function in Calculator-when I pass parameters -12, 3 function divide should return -4  " time="0">
+    </testcase>
+    <testcase classname="Checking divide function in Calculator-when I pass parameters -30, -5 function divide should return 6  " name="Checking divide function in Calculator-when I pass parameters -30, -5 function divide should return 6  " time="0.001">
+    </testcase>
+    <testcase classname="Checking divide function in Calculator-when I pass parameters two, 7 function divide should return function Error() { [native code] }  " name="Checking divide function in Calculator-when I pass parameters two, 7 function divide should return function Error() { [native code] }  " time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: [Function Error]
+Received: NaN
+    at toEqual (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\Divide.test.js:23:56)
+    at Object.&lt;anonymous&gt; (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-each\build\bind.js:79:13)
+    at Promise.then.completed (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:289:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:222:10)
+    at _callCircusTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:184:3)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:86:9)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:81:9)
+    at run (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:26:3)
+    at runAndTransformResultsToJestFormat (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:120:21)
+    at jestAdapter (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Checking divide function in Calculator-when I pass parameters 10, undefined function divide should return function Error() { [native code] }  " name="Checking divide function in Calculator-when I pass parameters 10, undefined function divide should return function Error() { [native code] }  " time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: [Function Error]
+Received: NaN
+    at toEqual (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\Divide.test.js:23:56)
+    at Object.&lt;anonymous&gt; (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-each\build\bind.js:79:13)
+    at Promise.then.completed (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:289:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:222:10)
+    at _callCircusTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:184:3)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:86:9)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:81:9)
+    at run (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:26:3)
+    at runAndTransformResultsToJestFormat (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:120:21)
+    at jestAdapter (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Checking divide function in Calculator-when I pass parameters 3, 5 function divide should return function Error() { [native code] }  " name="Checking divide function in Calculator-when I pass parameters 3, 5 function divide should return function Error() { [native code] }  " time="0.002">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: [Function Error]
+Received: 0.6
+    at toEqual (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\Divide.test.js:23:56)
+    at Object.&lt;anonymous&gt; (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-each\build\bind.js:79:13)
+    at Promise.then.completed (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:289:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:222:10)
+    at _callCircusTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:184:3)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:86:9)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:81:9)
+    at run (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:26:3)
+    at runAndTransformResultsToJestFormat (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:120:21)
+    at jestAdapter (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Checking divide function in Calculator-when I pass parameters 12, 0 function divide should return function Error() { [native code] }  " name="Checking divide function in Calculator-when I pass parameters 12, 0 function divide should return function Error() { [native code] }  " time="0.002">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: [Function Error]
+Received: Infinity
+    at toEqual (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\Divide.test.js:23:56)
+    at Object.&lt;anonymous&gt; (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-each\build\bind.js:79:13)
+    at Promise.then.completed (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:289:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:222:10)
+    at _callCircusTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:184:3)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:86:9)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:81:9)
+    at run (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:26:3)
+    at runAndTransformResultsToJestFormat (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:120:21)
+    at jestAdapter (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Checking divide function in Calculator-when I pass parameters 5, null function divide should return function Error() { [native code] }  " name="Checking divide function in Calculator-when I pass parameters 5, null function divide should return function Error() { [native code] }  " time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: [Function Error]
+Received: Infinity
+    at toEqual (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\Divide.test.js:23:56)
+    at Object.&lt;anonymous&gt; (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-each\build\bind.js:79:13)
+    at Promise.then.completed (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:289:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:222:10)
+    at _callCircusTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:184:3)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:86:9)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:81:9)
+    at run (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:26:3)
+    at runAndTransformResultsToJestFormat (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:120:21)
+    at jestAdapter (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Multiply.test.js" errors="0" failures="4" skipped="0" timestamp="2022-11-13T19:11:50" time="2.228" tests="10">
+    <testcase classname="Checking multiply function in Calculator-when I pass paramenters 1, 2, 3, 4, 5, 6, 7, 8, 9 function multiply should return number 362880 " name="Checking multiply function in Calculator-when I pass paramenters 1, 2, 3, 4, 5, 6, 7, 8, 9 function multiply should return number 362880 " time="0.005">
+    </testcase>
+    <testcase classname="Checking multiply function in Calculator-when I pass parameters 3, 4 function multiply should return 12  " name="Checking multiply function in Calculator-when I pass parameters 3, 4 function multiply should return 12  " time="0.001">
+    </testcase>
+    <testcase classname="Checking multiply function in Calculator-when I pass parameters 1, 7891511122145 function multiply should return 7891511122145  " name="Checking multiply function in Calculator-when I pass parameters 1, 7891511122145 function multiply should return 7891511122145  " time="0.001">
+    </testcase>
+    <testcase classname="Checking multiply function in Calculator-when I pass parameters 15, -12 function multiply should return -180  " name="Checking multiply function in Calculator-when I pass parameters 15, -12 function multiply should return -180  " time="0">
+    </testcase>
+    <testcase classname="Checking multiply function in Calculator-when I pass parameters -22, -8 function multiply should return 176  " name="Checking multiply function in Calculator-when I pass parameters -22, -8 function multiply should return 176  " time="0.001">
+    </testcase>
+    <testcase classname="Checking multiply function in Calculator-when I pass parameters two, 7 function multiply should return function Error() { [native code] }  " name="Checking multiply function in Calculator-when I pass parameters two, 7 function multiply should return function Error() { [native code] }  " time="0.004">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: [Function Error]
+Received: NaN
+    at toEqual (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\Multiply.test.js:20:58)
+    at Object.&lt;anonymous&gt; (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-each\build\bind.js:79:13)
+    at Promise.then.completed (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:289:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:222:10)
+    at _callCircusTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:184:3)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:86:9)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:81:9)
+    at run (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:26:3)
+    at runAndTransformResultsToJestFormat (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:120:21)
+    at jestAdapter (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Checking multiply function in Calculator-when I pass parameters 10, undefined function multiply should return function Error() { [native code] }  " name="Checking multiply function in Calculator-when I pass parameters 10, undefined function multiply should return function Error() { [native code] }  " time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: [Function Error]
+Received: NaN
+    at toEqual (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\Multiply.test.js:20:58)
+    at Object.&lt;anonymous&gt; (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-each\build\bind.js:79:13)
+    at Promise.then.completed (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:289:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:222:10)
+    at _callCircusTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:184:3)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:86:9)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:81:9)
+    at run (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:26:3)
+    at runAndTransformResultsToJestFormat (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:120:21)
+    at jestAdapter (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Checking multiply function in Calculator-when I pass parameters 3, 5 function multiply should return function Error() { [native code] }  " name="Checking multiply function in Calculator-when I pass parameters 3, 5 function multiply should return function Error() { [native code] }  " time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: [Function Error]
+Received: 15
+    at toEqual (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\Multiply.test.js:20:58)
+    at Object.&lt;anonymous&gt; (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-each\build\bind.js:79:13)
+    at Promise.then.completed (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:289:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:222:10)
+    at _callCircusTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:184:3)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:86:9)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:81:9)
+    at run (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:26:3)
+    at runAndTransformResultsToJestFormat (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:120:21)
+    at jestAdapter (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Checking multiply function in Calculator-when I pass parameters 12, 0 function multiply should return 0  " name="Checking multiply function in Calculator-when I pass parameters 12, 0 function multiply should return 0  " time="0">
+    </testcase>
+    <testcase classname="Checking multiply function in Calculator-when I pass parameters 5, null function multiply should return function Error() { [native code] }  " name="Checking multiply function in Calculator-when I pass parameters 5, null function multiply should return function Error() { [native code] }  " time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: [Function Error]
+Received: 0
+    at toEqual (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\Multiply.test.js:20:58)
+    at Object.&lt;anonymous&gt; (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-each\build\bind.js:79:13)
+    at Promise.then.completed (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:289:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:222:10)
+    at _callCircusTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:184:3)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:86:9)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:81:9)
+    at run (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:26:3)
+    at runAndTransformResultsToJestFormat (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:120:21)
+    at jestAdapter (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Subtraction.test.js" errors="0" failures="5" skipped="0" timestamp="2022-11-13T19:11:52" time="0.517" tests="12">
+    <testcase classname="Checking subtraction function in Calculator-when I pass paramenters 9, 8, 7, 6, 5, 4, 3, 2, 1 function subtraction should return number -27 " name="Checking subtraction function in Calculator-when I pass paramenters 9, 8, 7, 6, 5, 4, 3, 2, 1 function subtraction should return number -27 " time="0.007">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: -27
+Received: 1
+    at Object.toBe (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\Subtraction.test.js:7:63)
+    at Promise.then.completed (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:289:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:222:10)
+    at _callCircusTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:184:3)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:86:9)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:81:9)
+    at run (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:26:3)
+    at runAndTransformResultsToJestFormat (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:120:21)
+    at jestAdapter (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Checking subtraction function in Calculator-when I pass parameters 4, 3 function subtraction should return 1  " name="Checking subtraction function in Calculator-when I pass parameters 4, 3 function subtraction should return 1  " time="0.001">
+    </testcase>
+    <testcase classname="Checking subtraction function in Calculator-when I pass parameters 14, 14 function subtraction should return 0  " name="Checking subtraction function in Calculator-when I pass parameters 14, 14 function subtraction should return 0  " time="0.001">
+    </testcase>
+    <testcase classname="Checking subtraction function in Calculator-when I pass parameters 7891511122145, 1 function subtraction should return 7891511122144  " name="Checking subtraction function in Calculator-when I pass parameters 7891511122145, 1 function subtraction should return 7891511122144  " time="0">
+    </testcase>
+    <testcase classname="Checking subtraction function in Calculator-when I pass parameters 15, -12 function subtraction should return 27  " name="Checking subtraction function in Calculator-when I pass parameters 15, -12 function subtraction should return 27  " time="0.001">
+    </testcase>
+    <testcase classname="Checking subtraction function in Calculator-when I pass parameters -12, 15 function subtraction should return -27  " name="Checking subtraction function in Calculator-when I pass parameters -12, 15 function subtraction should return -27  " time="0">
+    </testcase>
+    <testcase classname="Checking subtraction function in Calculator-when I pass parameters -22, -8 function subtraction should return -14  " name="Checking subtraction function in Calculator-when I pass parameters -22, -8 function subtraction should return -14  " time="0">
+    </testcase>
+    <testcase classname="Checking subtraction function in Calculator-when I pass parameters two, 7 function subtraction should return function Error() { [native code] }  " name="Checking subtraction function in Calculator-when I pass parameters two, 7 function subtraction should return function Error() { [native code] }  " time="0.001">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: [Function Error]
+Received: NaN
+    at toBe (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\Subtraction.test.js:22:61)
+    at Object.&lt;anonymous&gt; (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-each\build\bind.js:79:13)
+    at Promise.then.completed (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:289:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:222:10)
+    at _callCircusTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:184:3)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:86:9)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:81:9)
+    at run (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:26:3)
+    at runAndTransformResultsToJestFormat (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:120:21)
+    at jestAdapter (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Checking subtraction function in Calculator-when I pass parameters 10, undefined function subtraction should return function Error() { [native code] }  " name="Checking subtraction function in Calculator-when I pass parameters 10, undefined function subtraction should return function Error() { [native code] }  " time="0">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: [Function Error]
+Received: NaN
+    at toBe (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\Subtraction.test.js:22:61)
+    at Object.&lt;anonymous&gt; (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-each\build\bind.js:79:13)
+    at Promise.then.completed (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:289:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:222:10)
+    at _callCircusTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:184:3)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:86:9)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:81:9)
+    at run (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:26:3)
+    at runAndTransformResultsToJestFormat (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:120:21)
+    at jestAdapter (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Checking subtraction function in Calculator-when I pass parameters 3, 5 function subtraction should return function Error() { [native code] }  " name="Checking subtraction function in Calculator-when I pass parameters 3, 5 function subtraction should return function Error() { [native code] }  " time="0.002">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: [Function Error]
+Received: -2
+    at toBe (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\Subtraction.test.js:22:61)
+    at Object.&lt;anonymous&gt; (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-each\build\bind.js:79:13)
+    at Promise.then.completed (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:289:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:222:10)
+    at _callCircusTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:184:3)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:86:9)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:81:9)
+    at run (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:26:3)
+    at runAndTransformResultsToJestFormat (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:120:21)
+    at jestAdapter (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Checking subtraction function in Calculator-when I pass parameters 12, 0 function subtraction should return 12  " name="Checking subtraction function in Calculator-when I pass parameters 12, 0 function subtraction should return 12  " time="0.001">
+    </testcase>
+    <testcase classname="Checking subtraction function in Calculator-when I pass parameters 5, null function subtraction should return function Error() { [native code] }  " name="Checking subtraction function in Calculator-when I pass parameters 5, null function subtraction should return function Error() { [native code] }  " time="0.001">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: [Function Error]
+Received: 5
+    at toBe (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\Subtraction.test.js:22:61)
+    at Object.&lt;anonymous&gt; (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-each\build\bind.js:79:13)
+    at Promise.then.completed (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:289:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:222:10)
+    at _callCircusTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:184:3)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:86:9)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:81:9)
+    at run (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:26:3)
+    at runAndTransformResultsToJestFormat (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:120:21)
+    at jestAdapter (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Exponentiation.test.js" errors="0" failures="12" skipped="0" timestamp="2022-11-13T19:11:52" time="0.591" tests="13">
+    <testcase classname="Checking exponentiation function in Calculator-when I pass parameters 3, 4 function exponentiation should return 81  " name="Checking exponentiation function in Calculator-when I pass parameters 3, 4 function exponentiation should return 81  " time="0.005">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: 81
+Received: 9
+    at toEqual (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\Exponentiation.test.js:22:64)
+    at Object.&lt;anonymous&gt; (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-each\build\bind.js:79:13)
+    at Promise.then.completed (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:289:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:222:10)
+    at _callCircusTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:184:3)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:86:9)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:81:9)
+    at run (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:26:3)
+    at runAndTransformResultsToJestFormat (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:120:21)
+    at jestAdapter (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Checking exponentiation function in Calculator-when I pass parameters 1, 7891511122145 function exponentiation should return 1  " name="Checking exponentiation function in Calculator-when I pass parameters 1, 7891511122145 function exponentiation should return 1  " time="0.001">
+    </testcase>
+    <testcase classname="Checking exponentiation function in Calculator-when I pass parameters 7891511122145, 1 function exponentiation should return 7891511122145  " name="Checking exponentiation function in Calculator-when I pass parameters 7891511122145, 1 function exponentiation should return 7891511122145  " time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: 7891511122145
+Received: 6.227594779093824e+25
+    at toEqual (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\Exponentiation.test.js:22:64)
+    at Object.&lt;anonymous&gt; (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-each\build\bind.js:79:13)
+    at Promise.then.completed (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:289:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:222:10)
+    at _callCircusTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:184:3)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:86:9)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:81:9)
+    at run (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:26:3)
+    at runAndTransformResultsToJestFormat (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:120:21)
+    at jestAdapter (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Checking exponentiation function in Calculator-when I pass parameters 5, -2 function exponentiation should return 0.04  " name="Checking exponentiation function in Calculator-when I pass parameters 5, -2 function exponentiation should return 0.04  " time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: 0.04
+Received: 25
+    at toEqual (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\Exponentiation.test.js:22:64)
+    at Object.&lt;anonymous&gt; (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-each\build\bind.js:79:13)
+    at Promise.then.completed (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:289:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:222:10)
+    at _callCircusTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:184:3)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:86:9)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:81:9)
+    at run (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:26:3)
+    at runAndTransformResultsToJestFormat (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:120:21)
+    at jestAdapter (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Checking exponentiation function in Calculator-when I pass parameters -2, -4 function exponentiation should return 0.0625  " name="Checking exponentiation function in Calculator-when I pass parameters -2, -4 function exponentiation should return 0.0625  " time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: 0.0625
+Received: 4
+    at toEqual (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\Exponentiation.test.js:22:64)
+    at Object.&lt;anonymous&gt; (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-each\build\bind.js:79:13)
+    at Promise.then.completed (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:289:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:222:10)
+    at _callCircusTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:184:3)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:86:9)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:81:9)
+    at run (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:26:3)
+    at runAndTransformResultsToJestFormat (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:120:21)
+    at jestAdapter (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Checking exponentiation function in Calculator-when I pass parameters -2, -3 function exponentiation should return -0.125  " name="Checking exponentiation function in Calculator-when I pass parameters -2, -3 function exponentiation should return -0.125  " time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: -0.125
+Received: 4
+    at toEqual (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\Exponentiation.test.js:22:64)
+    at Object.&lt;anonymous&gt; (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-each\build\bind.js:79:13)
+    at Promise.then.completed (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:289:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:222:10)
+    at _callCircusTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:184:3)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:86:9)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:81:9)
+    at run (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:26:3)
+    at runAndTransformResultsToJestFormat (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:120:21)
+    at jestAdapter (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Checking exponentiation function in Calculator-when I pass parameters -5, 3 function exponentiation should return -125  " name="Checking exponentiation function in Calculator-when I pass parameters -5, 3 function exponentiation should return -125  " time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: -125
+Received: 25
+    at toEqual (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\Exponentiation.test.js:22:64)
+    at Object.&lt;anonymous&gt; (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-each\build\bind.js:79:13)
+    at Promise.then.completed (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:289:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:222:10)
+    at _callCircusTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:184:3)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:86:9)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:81:9)
+    at run (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:26:3)
+    at runAndTransformResultsToJestFormat (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:120:21)
+    at jestAdapter (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Checking exponentiation function in Calculator-when I pass parameters -5, 4 function exponentiation should return 625  " name="Checking exponentiation function in Calculator-when I pass parameters -5, 4 function exponentiation should return 625  " time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: 625
+Received: 25
+    at toEqual (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\Exponentiation.test.js:22:64)
+    at Object.&lt;anonymous&gt; (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-each\build\bind.js:79:13)
+    at Promise.then.completed (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:289:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:222:10)
+    at _callCircusTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:184:3)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:86:9)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:81:9)
+    at run (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:26:3)
+    at runAndTransformResultsToJestFormat (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:120:21)
+    at jestAdapter (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Checking exponentiation function in Calculator-when I pass parameters two, 7 function exponentiation should return function Error() { [native code] }  " name="Checking exponentiation function in Calculator-when I pass parameters two, 7 function exponentiation should return function Error() { [native code] }  " time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: [Function Error]
+Received: NaN
+    at toEqual (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\Exponentiation.test.js:22:64)
+    at Object.&lt;anonymous&gt; (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-each\build\bind.js:79:13)
+    at Promise.then.completed (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:289:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:222:10)
+    at _callCircusTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:184:3)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:86:9)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:81:9)
+    at run (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:26:3)
+    at runAndTransformResultsToJestFormat (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:120:21)
+    at jestAdapter (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Checking exponentiation function in Calculator-when I pass parameters 10, undefined function exponentiation should return function Error() { [native code] }  " name="Checking exponentiation function in Calculator-when I pass parameters 10, undefined function exponentiation should return function Error() { [native code] }  " time="0.004">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: [Function Error]
+Received: 100
+    at toEqual (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\Exponentiation.test.js:22:64)
+    at Object.&lt;anonymous&gt; (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-each\build\bind.js:79:13)
+    at Promise.then.completed (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:289:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:222:10)
+    at _callCircusTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:184:3)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:86:9)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:81:9)
+    at run (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:26:3)
+    at runAndTransformResultsToJestFormat (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:120:21)
+    at jestAdapter (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Checking exponentiation function in Calculator-when I pass parameters 3, 5 function exponentiation should return function Error() { [native code] }  " name="Checking exponentiation function in Calculator-when I pass parameters 3, 5 function exponentiation should return function Error() { [native code] }  " time="0.014">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: [Function Error]
+Received: 9
+    at toEqual (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\Exponentiation.test.js:22:64)
+    at Object.&lt;anonymous&gt; (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-each\build\bind.js:79:13)
+    at Promise.then.completed (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:289:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:222:10)
+    at _callCircusTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:184:3)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:86:9)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:81:9)
+    at run (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:26:3)
+    at runAndTransformResultsToJestFormat (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:120:21)
+    at jestAdapter (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Checking exponentiation function in Calculator-when I pass parameters 12, 0 function exponentiation should return 1  " name="Checking exponentiation function in Calculator-when I pass parameters 12, 0 function exponentiation should return 1  " time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: 1
+Received: 144
+    at toEqual (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\Exponentiation.test.js:22:64)
+    at Object.&lt;anonymous&gt; (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-each\build\bind.js:79:13)
+    at Promise.then.completed (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:289:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:222:10)
+    at _callCircusTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:184:3)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:86:9)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:81:9)
+    at run (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:26:3)
+    at runAndTransformResultsToJestFormat (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:120:21)
+    at jestAdapter (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Checking exponentiation function in Calculator-when I pass parameters 5, null function exponentiation should return function Error() { [native code] }  " name="Checking exponentiation function in Calculator-when I pass parameters 5, null function exponentiation should return function Error() { [native code] }  " time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: [Function Error]
+Received: 25
+    at toEqual (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\Exponentiation.test.js:22:64)
+    at Object.&lt;anonymous&gt; (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-each\build\bind.js:79:13)
+    at Promise.then.completed (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:289:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\utils.js:222:10)
+    at _callCircusTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:184:3)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:86:9)
+    at _runTestsForDescribeBlock (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:81:9)
+    at run (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\run.js:26:3)
+    at runAndTransformResultsToJestFormat (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:120:21)
+    at jestAdapter (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Users\Anastasiya_Ausiankov\IT-Academy 09-22\Lesson 3\HomeTask15\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
