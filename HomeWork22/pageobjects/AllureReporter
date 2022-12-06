@@ -1,0 +1,10 @@
+class AllureReporter {
+    get 'AllureReporterHeadline'() {
+        return '.theme-doc-markdown.markdown header h1';
+    }
+
+}
+
+module.exports = {
+    AllureReporter
+};
