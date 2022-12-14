@@ -1,0 +1,31 @@
+
+  {
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "iso_a2": {
+          "type": "string"
+        },
+        "key": {
+          "type": "string"
+        },
+        "state_code": {
+          "type": "string"
+        },
+        "state_hasc": {
+          "type": "string"
+        },
+        "timezone": {
+          "type": "string"
+        },
+        "timezone_offset": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      }
+    }
+  }
+  
